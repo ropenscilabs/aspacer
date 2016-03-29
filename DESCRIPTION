@@ -1,0 +1,19 @@
+Package: aspacer
+Type: Package
+Title: Client for the ArchiveSpace API
+Description: Client for the ArchiveSpace API (<http://archivesspace.org/>).
+    ArchiveSpace is an open source archives information management application
+    for managing and providing web access to archives, manuscripts and
+    digital objects.
+Version: 0.0.1.9000
+Authors@R: person("Scott", "Chamberlain", role = c("aut", "cre"),
+    email = "myrmecocystus@gmail.com")
+License: MIT + file LICENSE
+URL: https://github.com/ropenscilabs/aspacer
+BugReports: https://github.com/ropenscilabs/aspacer/issues
+Imports:
+    httr (>= 1.1.0),
+    jsonlite (>= 0.9.19)
+Suggests:
+    roxygen2 (>= 5.0.1)
+RoxygenNote: 5.0.1
