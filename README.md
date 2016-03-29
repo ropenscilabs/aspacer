@@ -1,14 +1,7 @@
 aspacer
 =======
 
-```{r echo=FALSE}
-knitr::opts_chunk$set(
-  comment = "#>",
-  collapse = TRUE,
-  warning = FALSE,
-  message = FALSE
-)
-```
+
 
 [![Build Status](https://travis-ci.org/ropenscilabs/aspacer.svg?branch=master)](https://travis-ci.org/ropenscilabs/aspacer)
 [![Build status](https://ci.appveyor.com/api/projects/status/713m66e8lxra8t7u?svg=true)](https://ci.appveyor.com/project/sckott/aspacer)
@@ -21,11 +14,13 @@ ArchiveSpace API R client
 
 Development version
 
-```{r eval=FALSE}
+
+```r
 devtools::install_github("ropenscilabs/aspacer")
 ```
 
-```{r}
+
+```r
 library("aspacer")
 ```
 
