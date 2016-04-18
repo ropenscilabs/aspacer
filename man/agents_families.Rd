@@ -4,10 +4,14 @@
 \alias{agents_families}
 \title{Agents - families}
 \usage{
-agents_families(id = NULL, page = 1, limit = 10, parse = TRUE, ...)
+agents_families(id = NULL, all_ids = FALSE, page = 1, limit = 10,
+  parse = TRUE, ...)
 }
 \arguments{
-\item{id}{(integer) family agent identifier. optional}
+\item{id}{(integer) a single family agent identifier. optional}
+
+\item{all_ids}{(logical) Return a list of all object ids.
+Not sure this does anything? Default: \code{FALSE}}
 
 \item{page}{(character) page number (default: 1), optional}
 
@@ -26,7 +30,8 @@ Agents - families
 \examples{
 \dontrun{
 agents_families()
-agents_families(id = 6)
+agents_families(id = 3)
+agents_families(id = c(6, 7))
 agents_families(limit = 2)
 agents_families(limit = 2, parse = FALSE)
 }

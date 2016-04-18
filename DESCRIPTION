@@ -5,7 +5,7 @@ Description: Client for the ArchiveSpace API (<http://archivesspace.org/>).
     ArchiveSpace is an open source archives information management application
     for managing and providing web access to archives, manuscripts and
     digital objects.
-Version: 0.0.1.9000
+Version: 0.0.1.9600
 Authors@R: person("Scott", "Chamberlain", role = c("aut", "cre"),
     email = "myrmecocystus@gmail.com")
 License: MIT + file LICENSE
