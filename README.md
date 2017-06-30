@@ -1,18 +1,21 @@
-aspacer
-=======
+# aspacer
 
-
-
-[![Build Status](https://travis-ci.org/ropenscilabs/aspacer.svg?branch=master)](https://travis-ci.org/ropenscilabs/aspacer)
-[![Build status](https://ci.appveyor.com/api/projects/status/713m66e8lxra8t7u?svg=true)](https://ci.appveyor.com/project/sckott/aspacer)
+[![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active)
+![GitHub 0.0.1.9600](https://img.shields.io/badge/GitHub-0.0.1.9600-blue.svg)
 
 ArchiveSpace API R client
 
 [ArchiveSpace API docs](https://github.com/archivesspace/archivesspace/blob/4c26d82b1b0e343b7e1aea86a11913dcf6ff5b6f/docs/slate/source/index.md)
 
-## Install
+## Package status and installation
 
-Development version
+[![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/github/ropensci/aspacer?branch=master&svg=true)](https://ci.appveyor.com/project/ropensci/aspacer)
+[![Travis-CI Build Status](https://travis-ci.org/ropensci/aspacer.svg?branch=master)](https://travis-ci.org/)
+use_coverage(pkg = "alm", type = c("codecov", "coveralls"))
+[![rstudio mirror downloads](http://cranlogs.r-pkg.org/badges/aspacer?color=blue)](https://github.com/metacran/cranlogs.app)
+
+__Installation instructions__
+__Development version__
 
 
 ```r
