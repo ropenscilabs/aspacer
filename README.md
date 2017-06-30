@@ -11,7 +11,10 @@ ArchiveSpace API R client
 
 [![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/github/ropensci/aspacer?branch=master&svg=true)](https://ci.appveyor.com/project/ropensci/aspacer)
 [![Travis-CI Build Status](https://travis-ci.org/ropensci/aspacer.svg?branch=master)](https://travis-ci.org/)
-use_coverage(pkg = "alm", type = c("codecov", "coveralls"))
+``` r 
+library("devtools")
+use_coverage(pkg = "aspacer", type = c("codecov", "coveralls"))
+```
 [![rstudio mirror downloads](http://cranlogs.r-pkg.org/badges/aspacer?color=blue)](https://github.com/metacran/cranlogs.app)
 
 __Installation instructions__
