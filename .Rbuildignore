@@ -6,4 +6,4 @@ README.Rmd
 appveyor.yml
 cran-comments.md
 man-roxygen
-+^CONDUCT.md$
+^CONDUCT.md$
