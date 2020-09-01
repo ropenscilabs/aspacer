@@ -21,16 +21,16 @@ ArchiveSpace API R client
 
 ## Package status and installation
 
-[![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/github/ropenscilabs/aspacer?branch=master&svg=true)](https://ci.appveyor.com/project/ropenscilabs/aspacer)
-[![Travis-CI Build Status](https://travis-ci.org/ropenscilabs/aspacer.svg?branch=master)](https://travis-ci.org/)
-[![codecov](https://codecov.io/gh/ropenscilabs/aspacer/branch/master/graph/badge.svg)](https://codecov.io/gh/ropenscilabs/aspacer)
+[![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/github/sckott/aspacer?branch=master&svg=true)](https://ci.appveyor.com/project/sckott/aspacer)
+[![Travis-CI Build Status](https://travis-ci.org/sckott/aspacer.svg?branch=master)](https://travis-ci.org/)
+[![codecov](https://codecov.io/gh/sckott/aspacer/branch/master/graph/badge.svg)](https://codecov.io/gh/sckott/aspacer)
 [![rstudio mirror downloads](http://cranlogs.r-pkg.org/badges/aspacer?color=blue)](https://github.com/metacran/cranlogs.app)
 
 __Installation instructions__
 __Development version__
 
 ```{r eval=FALSE}
-devtools::install_github("ropenscilabs/aspacer")
+remotes::install_github("sckott/aspacer")
 ```
 
 ```{r eval=F}
@@ -63,6 +63,3 @@ Get citation information for `aspacer` in R by running: `citation(package = 'asp
 
 Please note that this project is released with a [Contributor Code of Conduct](CONDUCT.md).
 By participating in this project you agree to abide by its terms.
-
-
-[![ropensci_footer](https://ropensci.org/public_images/github_footer.png)](https://ropensci.org)
